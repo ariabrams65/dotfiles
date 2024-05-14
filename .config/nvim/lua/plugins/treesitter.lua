@@ -7,8 +7,8 @@ return {
 
             configs.setup({
                 --automatically installs parser when encountering that filetype
+                ensure_installed = {'lua', 'python', 'vimdoc', 'javascript', 'json', 'markdown', 'markdown_inline'},
                 auto_install = true,
-                -- ensure_installed = {'lua', 'python', 'vimdoc', 'javascript', 'json'},
                 highlight = { enable = true },
                 indent = { enable = true },
             })

@@ -8,9 +8,6 @@ vim.keymap.set('n', '<leader>fe', vim.cmd.Ex)
 vim.keymap.set('n', '<A-d>', '<C-d>zz')
 vim.keymap.set('n', '<A-u>', '<C-u>zz')
 
-vim.keymap.set('n', '<A-i>', '<C-i>')
-vim.keymap.set('n', '<A-o>', '<C-o>')
-
 vim.keymap.set('n', 'n', 'nzz')
 vim.keymap.set('n', 'N', 'Nzz')
 
@@ -32,5 +29,3 @@ vim.keymap.set('n', '<A-;>', '<C-^>')
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous [D]iagnostic message' })
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next [D]iagnostic message' })
 vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float, { desc = 'Show diagnostic [E]rror messages' })
-
-vim.keymap.set('n', '<F2>', '<cmd>earlier 1f<CR>')
