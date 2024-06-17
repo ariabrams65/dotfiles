@@ -32,7 +32,6 @@ return {
                     return {
                         -- Pmenu = { bg = colors.none },
                         LineNr = { fg = colors.surface2 },
-
                     }
                 end
             })
