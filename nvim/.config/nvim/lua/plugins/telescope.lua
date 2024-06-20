@@ -16,7 +16,7 @@ return {
                 builtin.find_files({cwd = utils.buffer_dir()})
             end, {})
             vim.keymap.set('n', '<leader>sc', function()
-                builtin.find_files({cwd="~/.config/nvim"})
+                builtin.find_files({cwd=vim.fn.stdpath('config')})
             end, {})
             vim.keymap.set('n', '<leader>sa', function()
                 builtin.find_files({cwd="~"})
