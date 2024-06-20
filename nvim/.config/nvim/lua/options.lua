@@ -19,7 +19,7 @@ vim.opt.cursorline = false
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
-vim.opt.signcolumn = 'yes'
+vim.opt.signcolumn = 'auto:1-9'
 
 vim.opt.hlsearch = true
 
