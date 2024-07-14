@@ -31,6 +31,9 @@ vim.opt.splitbelow = true
 -- Remoes ~ on lines after end of file
 vim.opt.fcs = 'eob: '
 
+-- Removes command line an bottom when not in use
+-- vim.o.cmdheight=0
+
 -- Not exactly sure what this does since we alreay have substition preview
 -- vim.opt.inccommand = 'split'
 
